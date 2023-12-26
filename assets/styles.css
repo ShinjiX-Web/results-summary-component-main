@@ -64,29 +64,30 @@ p {
 /*
   9. Create a root stacking context
 */
+
 #root, #__next {
   isolation: isolate;
 }
 
-    .attribution { 
-      font-size: 15px; 
-      text-align: center;
-    }
+.attribution { 
+  font-size: 15px; 
+  text-align: center;
+}
 
-    .attribution a { 
-      text-decoration: none;
-      background: #121FCF;
-      background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+.attribution a { 
+  text-decoration: none;
+  background: #121FCF;
+  background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-    }
+}
 
-    .attribution a:hover {
-      color: hsl(166, 100%, 37%);
-    }
+.attribution a:hover {
+  color: hsl(166, 100%, 37%);
+}
 
-    /* Custom CSS */
+/* Custom CSS */
 
 .container-main {
     background-color: hsl(0, 0%, 100%);
@@ -100,7 +101,6 @@ p {
 .container-main .attribution {
     text-align: center;
 }
-
 
 .container-sub {
     border-radius: 20px;
@@ -234,11 +234,11 @@ p.score {
   background-color: hsla(234, 85%, 45%, 0.055);
 }
 
-
 .react {
     margin-right: 100px;
     margin-left: 10px;
 }
+
 span {
   color: hsl(224, 30%, 27%);
   opacity: .8;
