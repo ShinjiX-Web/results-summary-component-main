@@ -30,6 +30,10 @@ Users should be able to:
 
 ![](./assets/images/screenshot-hover.png)
 
+### Mobile Design
+
+![](./assets/images/screenshot-mobile.png)
+
 ### Links
 
 - Solution URL: [Solution link](https://your-solution-url.com)
