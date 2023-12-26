@@ -68,8 +68,23 @@ p {
   isolation: isolate;
 }
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { 
+      font-size: 15px; 
+      text-align: center;
+    }
+
+    .attribution a { 
+      text-decoration: none;
+      background: #121FCF;
+      background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+    }
+
+    .attribution a:hover {
+      color: hsl(166, 100%, 37%);
+    }
 
     /* Custom CSS */
 
@@ -294,3 +309,7 @@ button:hover {
     border-top-left-radius: 0;
   }
 } 
+
+footer {
+  padding: 10px;
+}
